@@ -1,0 +1,62 @@
+[{
+  "_id": {
+    "$oid": "64c2af39cb5862cd53c6513a"
+  },
+  "username": "username 1",
+  "comment": "test-comment",
+  "id_thumbnail": "64c2443dcb5862cd53c6510f",
+  "timestamp": {
+    "$date": {
+      "$numberLong": "7259789523600000"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "64c2b66fcb5862cd53c65141"
+  },
+  "username": "username 2",
+  "comment": "test-comment",
+  "id_thumbnail": "64c2443dcb5862cd53c6510f",
+  "timestamp": {
+    "$date": {
+      "$numberLong": "7259789523600000"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "64c2bbcb55d4c808ab87fa8b"
+  },
+  "username": "username-from-post",
+  "comment": "comment-from-post",
+  "timestamp": {
+    "$date": "2023-07-27T18:47:40.003Z"
+  },
+  "id_thumbnail": "64c2443dcb5862cd53c6510f",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c2bbf655d4c808ab87fa90"
+  },
+  "username": "username-from-post-2",
+  "comment": "comment-from-post-2",
+  "timestamp": {
+    "$date": "2023-07-27T18:48:22.874Z"
+  },
+  "id_thumbnail": "64c2443dcb5862cd53c6510f",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c2bc2b55d4c808ab87fa95"
+  },
+  "username": "username-from-post-3",
+  "comment": "comment-from-post-3",
+  "timestamp": {
+    "$date": "2023-07-27T18:49:15.254Z"
+  },
+  "id_thumbnail": "64c2443dcb5862cd53c6510f",
+  "__v": 0
+}]
