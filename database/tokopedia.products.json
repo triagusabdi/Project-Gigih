@@ -1,0 +1,9 @@
+[{
+  "_id": {
+    "$oid": "64c26c60cb5862cd53c65123"
+  },
+  "url_product": "test_url",
+  "title": "Test-Product",
+  "price": 100,
+  "id_thumbnail": "64c2443dcb5862cd53c6510f"
+}]
