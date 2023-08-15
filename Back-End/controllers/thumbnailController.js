@@ -6,7 +6,7 @@ exports.getAllThumbnails = async (req, res) => {
       res.status(200).json(thumbnails);
     } catch (err) {
       console.error(err);
-      res.status(404).json({ error: 'Thumbnails not found' });
+      res.status(500).json({ error: 'Server error' });
     }
   };
 

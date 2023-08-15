@@ -1,4 +1,17 @@
 # Project-Gigih
+Tokopedia Play
+
+Description : To show listed video in youtube, and we can see product that can sell in thumbnail video, also we can comment to the thumbnail video.
+
+Features: 
+a. there 2 page Home, Detail Video
+b. User can see video list with thumbnail from YouTube in home page
+c. User can click each video and go to video detail page
+d. User can see list products, embed YouTube, list comment, and form submit
+comment
+e. User just need input name and comment when submit comment in form
+f. User can see their comment in list comment section after success submit
+comment
 
 # i. Database Structure
 

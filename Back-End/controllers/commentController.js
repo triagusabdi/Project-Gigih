@@ -8,7 +8,7 @@ exports.getCommentByIDThumbnail = async (req, res) => {
     } catch (err) {
         const { id_thumbnail } = req.params;
         console.error(err);
-        res.status(404).json({ error: err, message: `Comments With id ${id_thumbnail} not found` });
+        res.status(500).json({ error: err, message: `Comments With id ${id_thumbnail} not found` });
     }
 };
 
@@ -24,7 +24,7 @@ exports.createCommentByIDThumbnail = async (req, res) => {
         res.status(201).json({ message: "Success"});
     } catch (err) {
         console.error(err);
-        res.status(404).json({ error: 'Fail' });
+        res.status(500).json({ error: 'Fail' });
     }
 };
 

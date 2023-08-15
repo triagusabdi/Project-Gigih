@@ -5,8 +5,11 @@ const mongoose = require("mongoose")
 const router = require("./routes/routes")
 const DB_URL = process.env.DB_URL
 const PORT = process.env.PORT
+const cors = require("cors");
 
 const app = express()
+
+app.use(cors());
 
 mongoose.connect(DB_URL);
 
