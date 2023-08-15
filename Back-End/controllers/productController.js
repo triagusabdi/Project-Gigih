@@ -8,7 +8,7 @@ exports.getProductByIDThumbnail = async (req, res) => {
     } catch (err) {
       const { id_thumbnail } = req.params;
       console.error(err);
-      res.status(404).json({ error: err, message: `Product With id ${id_thumbnail} not found` });
+      res.status(500).json({ error: err, message: `Product With id ${id_thumbnail} not found` });
     }
   };
 
